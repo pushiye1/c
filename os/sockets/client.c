@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	struct addrinfo *host_ai;
 	struct addrinfo hint;
 	int sockfd, err;
-    
+    int bb;
 	if (argc != 2)
         	print_error("usage: client hostname");
     
