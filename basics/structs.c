@@ -17,6 +17,7 @@ int main(int argc, char* argv[]) {
 	joe.name = "Joe";
 	strncpy(joe.phone, "212-5432", sizeof(joe.phone));
 	print_contact(joe);
+	int  cc=2;
 
 
 	struct contact my_contacts[10];
